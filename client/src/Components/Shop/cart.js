@@ -1,4 +1,4 @@
-import React from 'react'
+import './cart.css';
 import { useState } from 'react';
 
 const Cart = ({ cart }) => {
@@ -18,7 +18,7 @@ const Cart = ({ cart }) => {
                 <h4>{book.title}</h4>
                 <p>{book.description}</p>
                 </div>
-                <button onClick={() => cartDelete(book.id)} className="btn btn-danger">delete</button>
+                <button id="cart-deleteBtn"onClick={() => cartDelete(book.id)} className="btn btn-danger">delete</button>
             </section>
         ))}
 
