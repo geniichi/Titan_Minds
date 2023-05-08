@@ -1,0 +1,141 @@
+#WhyPickUs-section{
+    display:flex;
+    align-items: center;
+    position:relative;
+}
+#WhyPickUs-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to left, transparent, rgba(0,0,0,1)), url("https://www.greatschools.org/gk/wp-content/uploads/2015/01/reading_with_teacher.jpg");
+    background-size: cover;
+    z-index:-1;
+}
+#WhyPickUs-section > div{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align:left;
+}
+#WhyPickUs-section > div h2{
+    margin-bottom:20px;
+}
+
+    /* Extra Small (xs) */
+@media (max-width: 575.98px) {
+    #WhyPickUs-section{
+        height:35vh
+    }
+    #WhyPickUs-section > div{
+        height:30vh;
+        margin: auto 2rem
+    }
+    #WhyPickUs-section > div p{
+        line-height:30px;
+        font-size:14px;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    #WhyPickUs-section > div p::-webkit-scrollbar{
+        display:none;
+    }
+    #WhyPickUs-section > div h2 {
+        font-size:19px;
+    }
+  }
+
+  /* Small (sm) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    #WhyPickUs-section{
+        height:35vh
+    }
+    #WhyPickUs-section > div{
+        height:30vh;
+        margin: auto 2rem
+    }
+    #WhyPickUs-section > div p{
+        line-height:30px;
+        font-size:14px;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    #WhyPickUs-section > div p::-webkit-scrollbar{
+        display:none;
+    }
+    #WhyPickUs-section > div h2 {
+        font-size:19px;
+    }
+  }
+
+  /* Medium (md) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #WhyPickUs-section{
+        height:40vh
+    }
+    #WhyPickUs-section > div{
+        height:35vh;
+        margin: auto 2rem
+    }
+    #WhyPickUs-section > div p{
+        line-height:30px;
+        font-size:14px;
+    }
+    #WhyPickUs-section > div p::-webkit-scrollbar{
+        display:none;
+    }
+    #WhyPickUs-section > div h2 {
+        font-size:19px;
+    }
+  }
+
+  /* Large (lg) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    #WhyPickUs-section{
+        height:60vh
+    }
+    #WhyPickUs-section > div{
+        width:50vh;
+        margin:2rem 4rem;
+        height:50vh;
+    }
+    #WhyPickUs-section > div p{
+        line-height:25px;
+        font-size:15px;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    #WhyPickUs-section > div p::-webkit-scrollbar{
+        display:none;
+    }
+    #WhyPickUs-section > div h2 {
+        font-size:20px;
+    }
+  }
+
+  /* Extra Large (xl) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    #WhyPickUs-section > div p{
+        line-height: 30px;
+    }
+    #WhyPickUs-section > div{
+        width:50vh;
+        margin:5rem 6rem;
+    }
+  }
+
+  /* Extra Extra Large (xxl) */
+  @media (min-width: 1400px) {
+    #WhyPickUs-section{
+        height:100vh;
+    }
+    #WhyPickUs-section > div p{
+        line-height: 32px;
+    }
+    #WhyPickUs-section > div{
+        width:50vh;
+        margin:5rem 12rem;
+    }
+  }

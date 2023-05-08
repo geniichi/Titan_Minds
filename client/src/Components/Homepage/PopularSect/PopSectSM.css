@@ -1,0 +1,89 @@
+#popular-books-section-title-sm{
+    font-family: 'Rubik', sans-serif;
+    -webkit-text-stroke: 2.5px #10657a;
+    color:rgb(18, 32, 49);
+    letter-spacing: 15px;
+    text-align: center;
+    margin:1rem;
+}
+.PopSectSM-main{
+    background-size: cover;
+    background-position:center top -50px;
+    height:60vh;
+    position:relative;
+}
+.PopSectSM-main > div {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:30px 50px 40px 50px;
+    background-color: rgba(13, 136, 171, 0.7); /* Fallback value */
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+}
+.PopSectSM-main > div p{
+    margin-top:25px
+}
+/* Medium (md) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #popular-books-section-title-sm{
+        -webkit-text-stroke: 2.5px #10657a;
+        letter-spacing: 15px;
+        margin:1rem;
+    }
+    .PopSectSM-main{
+        background-position:center top -50px;
+        height:60vh;
+    }
+    .PopSectSM-main > div {
+        padding:30px 50px 40px 50px;
+    }
+    .PopSectSM-main > div p{
+        margin-top:25px
+    }
+}
+/* Small (sm) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #popular-books-section-title-sm{
+        -webkit-text-stroke: 1.5px #10657a;
+        font-size:2rem;
+        margin:0.5rem;
+    }
+    .PopSectSM-main{
+        background-position:center top 0px;
+        height:40vh;
+    }
+    .PopSectSM-main > div {
+        padding:15px 30px 20px 30px;
+    }
+    .PopSectSM-main > div h5{
+        font-size:20px;
+    }
+    .PopSectSM-main > div p{
+        margin-top:10px;
+        font-size:15px;
+    }
+}
+/* Extra Small (xs) */
+@media (max-width: 575.98px) {
+    #popular-books-section-title-sm{
+        -webkit-text-stroke: 1.5px #10657a;
+        font-size:1.5rem;
+        margin:0.5rem;
+    }
+    .PopSectSM-main{
+        background-position:center top 0px;
+        height:35vh;
+    }
+    .PopSectSM-main > div {
+        padding:15px 30px 20px 30px;
+    }
+    .PopSectSM-main > div h5{
+        font-size:15px;
+    }
+    .PopSectSM-main > div p{
+        margin-top:7px;
+        font-size:10px;
+    }
+}

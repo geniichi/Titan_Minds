@@ -1,0 +1,19 @@
+#Books-book-main-container{
+    padding:5rem;
+}
+#Books-book-title{
+
+}
+#Books-book-imgContainer{
+    width:250px;
+    height:390px;
+
+}
+#Books-book-imgContainer img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+#Books-book-description{
+
+}

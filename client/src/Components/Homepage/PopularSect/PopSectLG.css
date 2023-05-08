@@ -1,0 +1,95 @@
+#popular-books-section-main-lg{
+    background-color:#10657a;
+    height:100vh;
+}
+#popular-books-section-title-lg{
+    font-family: 'Rubik', sans-serif;
+    -webkit-text-stroke: 2px #0db3dc;
+    color:#10657a;
+    letter-spacing: 15px;
+    margin: auto auto 2rem 14rem;
+    padding-top:2rem;
+}
+#popular-books-section-lg{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap:25px;
+    margin:20px 14rem;
+}
+#popular-books-section-lg > div{
+    position:relative;
+    background-size:cover;
+    height:15rem;
+    position:relative;
+}
+#popular-books-section-lg > div > div{
+    background-color: rgb(13, 136, 171);
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:10px 15px;
+    height:100px;
+}
+#popular-books-section-lg > div > div h5{
+    font-size:17px;
+}
+#popular-books-section-lg > div > div p{
+    font-size:12px;
+}
+
+/* Extra Extra Large (xxl) */
+@media (min-width: 1400px) {
+    #popular-books-section-lg > div > div h5{
+        font-size:19px;
+    }
+    #popular-books-section-lg > div > div p{
+        font-size:14px;
+    }
+    #popular-books-section-lg > div > div p{
+        font-size:12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+/* Extra Large (xl) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #popular-books-section-lg > div > div h5{
+        font-size:17px;
+    }
+    #popular-books-section-lg > div > div p{
+        font-size:12px;
+    }
+    #popular-books-section-lg{
+        grid-gap:22px;
+        margin:20px 10rem;
+    }
+    #popular-books-section-title-lg{
+        margin: auto auto 2rem 10rem;
+    }
+}
+/* Large (lg) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #popular-books-section-title-lg{
+        margin-left:6rem;
+    }
+    #popular-books-section-lg > div > div h5{
+        font-size:17px;
+    }
+    #popular-books-section-lg > div > div p{
+        font-size:12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #popular-books-section-lg{
+        grid-gap:22px;
+        margin:20px 6rem;
+    }
+}

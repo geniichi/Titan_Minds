@@ -1,0 +1,11 @@
+#SignUp-container{
+    background-image: linear-gradient( to top right, rgb(18, 94, 209),rgb(8, 176, 170));
+    height:90vh;
+    display: grid;
+    place-items: center;
+}
+#SignUp-container > form{
+    border:2px solid #fff;
+    background-color:#ffffff84;
+    border-radius: 10px;
+}

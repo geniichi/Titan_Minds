@@ -1,0 +1,10 @@
+#login-container{
+    background-image: linear-gradient( rgb(49, 174, 223),rgb(8, 100, 176));
+    height:80vh;
+    display: grid;
+    place-items: center;
+}
+#login-container > div {
+    border:2px solid #fff;
+    border-radius: 10px;
+}

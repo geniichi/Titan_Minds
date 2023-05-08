@@ -1,0 +1,172 @@
+#AboutUs-section{
+    background-color: rgb(10, 60, 88);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    position:relative;
+}
+
+#AboutUs-section > img {
+    width:500px;
+    height:500px;
+    object-fit: cover;
+}
+#AboutUs-section > div h2, #AboutUs-section > div p{
+    color:#dcdada;
+}
+
+    /*XXS**/
+    @media (max-width: 280px) {
+        #AboutUs-section::-webkit-scrollbar{
+            display:none;
+        }
+        #AboutUs-section > div h2{
+            font-size: 6px;
+        }
+         #AboutUs-section > div p {
+            font-size:3px;
+            line-height: 4px;
+        }
+        #AboutUs-section > img {
+            width:320px;
+            height:320px;
+        }
+    }
+    /*XS*/
+    @media (max-width: 400px) {
+        #AboutUs-section > div h2{
+            font-size: 10px;
+        }
+         #AboutUs-section > div p {
+            line-height: 10px;
+            font-size:9px;
+            line-height: 7px;
+        }
+        #AboutUs-section > img {
+            width:320px;
+            height:320px;
+        }
+    }
+    /*SM*/
+    @media (max-width: 590px) {
+        #AboutUs-section > div h2{
+            font-size: 15px;
+        }
+        #AboutUs-section > div p {
+            line-height: 15px;
+            font-size:10px;
+            line-height: 10px;
+        }
+
+        #AboutUs-section > img {
+            width:320px;
+            height:320px;
+        }
+    }
+    /*MD*/
+    @media (max-width: 992px) {
+        #AboutUs-section{
+            flex-direction:column;
+            text-align:center;
+            padding:0px;
+        }
+
+        #AboutUs-section > div h2{
+            font-size: 20px;
+            padding:10px;
+            background-color:rgb(19, 75, 91);
+            margin:0;
+        }
+        #AboutUs-section > div {
+            padding:0px;
+            overflow:hidden;
+        }
+        #AboutUs-section > div p {
+            text-align:left;
+            line-height: 27px;
+            padding:25px;
+            font-size:14px;
+            position:relative;
+            z-index:1;
+            overflow:hidden;
+            margin-bottom:0px;
+        }
+        #AboutUs-section > div p::before{
+            content: "";
+            background-image:url("https://blog.tts-group.co.uk/wp-content/uploads/2016/05/iStock_000064887587_Large-1024x683.jpg");
+            background-size: cover;
+            position: absolute;
+            top: -250px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index:-2;
+            opacity:0.25;
+        }
+        #AboutUs-section > img {
+            width:99vw;
+            display:none;
+        }
+    }
+    /*LG*/
+    @media (min-width: 992px) {
+        #AboutUs-section{
+            flex-direction:row;
+            text-align:left;
+            padding:50px;
+        }
+        #AboutUs-section > div h2{
+            font-size: 25px;
+        }
+        #AboutUs-section > div {
+            height:375px;
+            margin-left:50px;
+            overflow-y:scroll;
+            overflow-x:hidden;
+        }
+         #AboutUs-section > div p {
+            line-height: 30px;
+        }
+        #AboutUs-section > img {
+            width:375px;
+            height:375px;
+        }
+    }
+    @media (min-width: 1160px) {
+        #AboutUs-section {
+        padding:70px;
+        height:70vh;
+        }
+        #AboutUs-section > div {
+            overflow-y:scroll;
+            padding: 0px 50px;
+        }
+        #AboutUs-section > div h2{
+            font-size: 30px;
+        }
+         #AboutUs-section > div p {
+            line-height: 35px;
+        }
+        #AboutUs-section > img {
+            width:425px;
+            height:425px;
+        }
+    }
+    @media (min-width: 1285px) {
+        #AboutUs-section {
+            height:100vh;
+            }
+        #AboutUs-section > div {
+            overflow-y:scroll;
+            overflow-x:hidden;
+            padding: 0px 50px;
+        }
+    }
+    @media (min-width: 1400px) {
+        #AboutUs-section > div {
+            padding: 0px 150px;
+            height:60vh;
+            overflow:hidden;
+        }
+    }
