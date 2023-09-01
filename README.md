@@ -1,2 +1,2 @@
 # Titan_Minds
-An online library/bookstore; KodeGo bootcamp mini-project-2
+A hypothetical online library/bookstore
